@@ -4,7 +4,7 @@
 This project sets up a simple Node.js app, containerizes it with Docker, deploys it to AWS EKS with two replicas, and automates the process using GitHub Actions. The app responds with "Hello Eyego" at the root endpoint (`/`). The setup is designed to be easy to move to Google Cloud or Alibaba Cloud.
 
 ## Live URL
-http://http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/ 
+http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/
 (you can get this from `kubectl get svc eyego-service`)
 
 ## Tech Used
@@ -154,7 +154,8 @@ http://http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaw
   ```bash
   kubectl get svc eyego-service
   ```
-  Test: `curl http://<elb-url>/` (should return "Hello Eyego").
+  Test: `curl http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/` 
+(should return "Hello Eyego").
 
 ### 6. Automate The Deployment with GitHub Actions
 - **.github/workflows/deploy.yml**:
