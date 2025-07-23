@@ -1,7 +1,7 @@
 # Eyego DevOps Task
 
 ## 🌐 Live URL
-http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/api
+http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/
 
 ## 🚀 CI/CD Flow
 1. Push to GitHub triggers pipeline.
