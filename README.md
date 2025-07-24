@@ -16,7 +16,7 @@ http://a12025bb4b0f244f98cb115e17ee3ad8-2075449565.us-east-1.elb.amazonaws.com/
 - kubectl and eksctl
 
 ## Project Files
-- `app.js`: Node.js app code
+- `server.js`: Node.js app code
 - `package.json`: App dependencies
 - `Dockerfile`: Docker setup
 - `k8s/deployment.yaml`: Kubernetes deployment (2 replicas)
